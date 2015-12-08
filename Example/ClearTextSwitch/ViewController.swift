@@ -7,17 +7,27 @@
 //
 
 import UIKit
+import ClearTextSwitch
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ClearTextSwitchDelegate {
 
+    @IBOutlet weak var firstClearTextSwitch: ClearTextSwitch!
+    @IBOutlet weak var secondClearTextSwitch: ClearTextSwitch!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        
+        self.firstClearTextSwitch.selectedBackgroundColor = UIColor.redColor()
+        self.firstClearTextSwitch.delegate = self
+        self.firstClearTextSwitch.title = "First"
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        self.secondClearTextSwitch.selectedBackgroundColor = UIColor.yellowColor()
+        self.secondClearTextSwitch.title = "2."
+        self.secondClearTextSwitch.delegate = self
+    }
+    
+    func clearTextSwitchDidChange(clearTextSwitch: ClearTextSwitch) {
+        print("clearTextSwitchDidChange to \(clearTextSwitch.selected)")
     }
 
 }

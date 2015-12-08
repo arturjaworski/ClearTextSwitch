@@ -1,0 +1,1013 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0385D9A6BDCE12A2EFA061F6D9D7A906 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */; };
+		0F40F00A0451C95903E7BA92FB21454E /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16E428CF32FF6B98130C31F634B263E1 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AAEC746D53F33D5D36A546F8F03BEB2 /* Pods-ClearTextSwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 324FE104D1A3D432A3F1E9BEF0970A93 /* Pods-ClearTextSwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D45A9F3506A097A19E8B07C135318E7 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */; };
+		21227CA9800D1705E38E89FBFB8314FA /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267C2220BAB1B89CB4DD84FE5E01CE87 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4396A21D67F2108BF525934411BB2210 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */; };
+		47FC3A89DC2EB1105B372091E66FB4D0 /* Pods-ClearTextSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FD725D10C1A91C3229F53A9E081920 /* Pods-ClearTextSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60FD048E3C2D2DE5883A26FE16FEC947 /* ClearTextSwitchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E082ECD8AA9F0E3F892F95B9248930B6 /* ClearTextSwitchDelegate.swift */; };
+		66AB70A82E10F242F8AD52CB231C4207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8698826DBA82B5FF84BA0FACB68CA86 /* Foundation.framework */; };
+		6716E1C856EB1FF1619678E67BA448D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8698826DBA82B5FF84BA0FACB68CA86 /* Foundation.framework */; };
+		6A8BF13F2414C4966C0503DA82C88F61 /* Pods-ClearTextSwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 871195D988ED79C5B025CEC330AB281E /* Pods-ClearTextSwitch_Tests-dummy.m */; };
+		780B7A4E7B815E074EE12A9E055F83F5 /* Pods-ClearTextSwitch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB3F684824A29F6DE1196BDF502FA /* Pods-ClearTextSwitch_Example-dummy.m */; };
+		884539CF9DD2C4EFE8B7E78B70DDFF0F /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0D48D26F82F7721BC1C5405C803342 /* PureLayout.framework */; };
+		9008E17B5F1E933A137180C2E1C2EA58 /* ClearTextSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A920A3E244DC12D713B9855B0F43C69 /* ClearTextSwitch-dummy.m */; };
+		9C26A67EAC91B9C3C09E64AB4B4B0DF5 /* ClearTextSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D210FD03F75E3616E3CECBF2BE03AE /* ClearTextSwitch.swift */; };
+		9EB4389BB9DE1C31F177FB2E716146A7 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFEA95188E08BEB23065B2AB052E7BC /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4B9C6945867BF3D3DD24BAD742FE60 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D9E17BE044F47037C6ABD6F65EE32 /* PureLayout-dummy.m */; };
+		BCB45218A9ED7494324F56E97B1E9DE7 /* ClearTextSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C050E85F8FF2A2A6B6BE32F441166071 /* ClearTextSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDE0FC48C1C8E5EDF7472EFB67427FEF /* ClearTextSwitch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1FC4BF61587611F04B7DCD3BD1CCA48 /* ClearTextSwitch.bundle */; };
+		D913F853990C96E13060F4D2260F25FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8698826DBA82B5FF84BA0FACB68CA86 /* Foundation.framework */; };
+		DC2B941C0BF92FA6EBEC6DEC6D57AB78 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0604AD7CE68EF60119F4D86C5B9EE20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8698826DBA82B5FF84BA0FACB68CA86 /* Foundation.framework */; };
+		FB1D2E9FB13774CD4DA320329ECEBBDC /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14D46A6249DD3EB88F9E8F8671BFA4DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE87237A9B1E41F10C748CCD9466ECC;
+			remoteInfo = ClearTextSwitch;
+		};
+		32F196B5664AC3D5CE867F1D10675967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A230B4029792D5316D906B8926870E5D;
+			remoteInfo = PureLayout;
+		};
+		33CDB2FA7A4A263B59425BACEFA3711D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A230B4029792D5316D906B8926870E5D;
+			remoteInfo = PureLayout;
+		};
+		7975E2C9CA26C6AD7447BA61403E51BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE87237A9B1E41F10C748CCD9466ECC;
+			remoteInfo = ClearTextSwitch;
+		};
+		D40AA1061BFE7CDE7E657D99E7FC6086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A230B4029792D5316D906B8926870E5D;
+			remoteInfo = PureLayout;
+		};
+		F4C1ACF28CF2992A83F703B3D850CAB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9A1282DC404CFAEA3616D41FFFCF75;
+			remoteInfo = "ClearTextSwitch-ClearTextSwitch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A2DA6EC0F788A40D90977FB6241EDA /* Pods-ClearTextSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClearTextSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		0E99162F9F89616E7AC544BA6E593D18 /* ClearTextSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ClearTextSwitch.modulemap; sourceTree = "<group>"; };
+		183DB3F684824A29F6DE1196BDF502FA /* Pods-ClearTextSwitch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClearTextSwitch_Example-dummy.m"; sourceTree = "<group>"; };
+		1A920A3E244DC12D713B9855B0F43C69 /* ClearTextSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClearTextSwitch-dummy.m"; sourceTree = "<group>"; };
+		215ED93CA017097BB0D392B4F0440564 /* Pods-ClearTextSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClearTextSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		22FD725D10C1A91C3229F53A9E081920 /* Pods-ClearTextSwitch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClearTextSwitch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		249938C44B3C707521E098F2C5086AD9 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		2AE8C4286DAB5804CC321A425FF40B17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0D48D26F82F7721BC1C5405C803342 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		324FE104D1A3D432A3F1E9BEF0970A93 /* Pods-ClearTextSwitch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClearTextSwitch_Example-umbrella.h"; sourceTree = "<group>"; };
+		3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		446280EE85E7E8403D6544E6F08EA067 /* Pods_ClearTextSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearTextSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DB5A423398773E85CF9ACA2602723E /* Pods_ClearTextSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClearTextSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2EACAF5BA6B76481F6D7EE4CC7C26D /* Pods-ClearTextSwitch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClearTextSwitch_Tests-resources.sh"; sourceTree = "<group>"; };
+		53869946B4016D1E850375A0474BC5E3 /* ClearTextSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClearTextSwitch-prefix.pch"; sourceTree = "<group>"; };
+		562374ED3CE8A6068E4BD1755D4AFB0E /* Pods-ClearTextSwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClearTextSwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5852F0BB62C7FFB53D42A160DA86A69A /* Pods-ClearTextSwitch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ClearTextSwitch_Tests.modulemap"; sourceTree = "<group>"; };
+		5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		6D986837FA46C6AB4A8D72FCAA1B4454 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		6ECC1E6BC1CBB960EEEB5DBB1F28C59A /* Pods-ClearTextSwitch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClearTextSwitch_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6EFEA95188E08BEB23065B2AB052E7BC /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		70D210FD03F75E3616E3CECBF2BE03AE /* ClearTextSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClearTextSwitch.swift; sourceTree = "<group>"; };
+		78FA07771348A117EB81C837A08B619B /* Pods-ClearTextSwitch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClearTextSwitch_Example-resources.sh"; sourceTree = "<group>"; };
+		7EFD19B160EA8F132C5A345FB2AE4F8D /* Pods-ClearTextSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClearTextSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		808D9E17BE044F47037C6ABD6F65EE32 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		84D241FC907A5607201B44D42357DD81 /* Pods-ClearTextSwitch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClearTextSwitch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		871195D988ED79C5B025CEC330AB281E /* Pods-ClearTextSwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClearTextSwitch_Tests-dummy.m"; sourceTree = "<group>"; };
+		8783E71AF6237F306E823B1382F0EE63 /* Pods-ClearTextSwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClearTextSwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9914E46CEC21D1010C39F2883B3DEFBB /* Pods-ClearTextSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClearTextSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FEF7F4B62379E2153CA78772A6599BF /* Pods-ClearTextSwitch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClearTextSwitch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A28F500AA29B9E9C3507F44F862948F8 /* ClearTextSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClearTextSwitch.xcconfig; sourceTree = "<group>"; };
+		AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		ACE80C7532ADE92442424EED986F5AD8 /* Pods-ClearTextSwitch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClearTextSwitch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B30F9E7A76F6593BBA3BBDB9F5EFA0F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C050E85F8FF2A2A6B6BE32F441166071 /* ClearTextSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClearTextSwitch-umbrella.h"; sourceTree = "<group>"; };
+		C1FC4BF61587611F04B7DCD3BD1CCA48 /* ClearTextSwitch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearTextSwitch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8449D30367ABC63275CA9BFC14C269 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5056850A979397D23BCDB559C425F8 /* ClearTextSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClearTextSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		DC48A19E2AA264922693A9C30BC30743 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E082ECD8AA9F0E3F892F95B9248930B6 /* ClearTextSwitchDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClearTextSwitchDelegate.swift; sourceTree = "<group>"; };
+		E8698826DBA82B5FF84BA0FACB68CA86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F2716A4F386E9CD8606D9E30560E15D1 /* Pods-ClearTextSwitch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ClearTextSwitch_Example.modulemap"; sourceTree = "<group>"; };
+		F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		FF509C9E0FCBB4A13545539797AED842 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6B5267B732E3EB670B7744125CD21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE15057F815446812890D87F5168A11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0604AD7CE68EF60119F4D86C5B9EE20 /* Foundation.framework in Frameworks */,
+				884539CF9DD2C4EFE8B7E78B70DDFF0F /* PureLayout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3730DAFCEBAE55552E147FA4E021AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AB70A82E10F242F8AD52CB231C4207 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2284683CADBB530B1283BDB2E1369F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913F853990C96E13060F4D2260F25FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66EA3DE4DE30BB8C9D6C86779C58097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6716E1C856EB1FF1619678E67BA448D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F7CB2F8AA04108B4168449AFCA94214 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC48A19E2AA264922693A9C30BC30743 /* Info.plist */,
+				249938C44B3C707521E098F2C5086AD9 /* PureLayout.modulemap */,
+				01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */,
+				808D9E17BE044F47037C6ABD6F65EE32 /* PureLayout-dummy.m */,
+				6D986837FA46C6AB4A8D72FCAA1B4454 /* PureLayout-prefix.pch */,
+				6EFEA95188E08BEB23065B2AB052E7BC /* PureLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		2FD3B7E8B122AF82F88E01E89B38435E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D4169C23943C42B935D9ECB987428B4 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		592F9836C2D080BDBB9BECA67364306F /* ClearTextSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				2FD3B7E8B122AF82F88E01E89B38435E /* Pod */,
+				9F918E594BB8799410BC081A6A33E995 /* Support Files */,
+			);
+			name = ClearTextSwitch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		661276CC4AC31FB9DAB4488DD7B05393 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				592F9836C2D080BDBB9BECA67364306F /* ClearTextSwitch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6D4169C23943C42B935D9ECB987428B4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				70D210FD03F75E3616E3CECBF2BE03AE /* ClearTextSwitch.swift */,
+				E082ECD8AA9F0E3F892F95B9248930B6 /* ClearTextSwitchDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7C73DC11ACEFE5A0359AC1CC43E49B12 /* Pods-ClearTextSwitch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FF509C9E0FCBB4A13545539797AED842 /* Info.plist */,
+				F2716A4F386E9CD8606D9E30560E15D1 /* Pods-ClearTextSwitch_Example.modulemap */,
+				84D241FC907A5607201B44D42357DD81 /* Pods-ClearTextSwitch_Example-acknowledgements.markdown */,
+				ACE80C7532ADE92442424EED986F5AD8 /* Pods-ClearTextSwitch_Example-acknowledgements.plist */,
+				183DB3F684824A29F6DE1196BDF502FA /* Pods-ClearTextSwitch_Example-dummy.m */,
+				562374ED3CE8A6068E4BD1755D4AFB0E /* Pods-ClearTextSwitch_Example-frameworks.sh */,
+				78FA07771348A117EB81C837A08B619B /* Pods-ClearTextSwitch_Example-resources.sh */,
+				324FE104D1A3D432A3F1E9BEF0970A93 /* Pods-ClearTextSwitch_Example-umbrella.h */,
+				7EFD19B160EA8F132C5A345FB2AE4F8D /* Pods-ClearTextSwitch_Example.debug.xcconfig */,
+				01A2DA6EC0F788A40D90977FB6241EDA /* Pods-ClearTextSwitch_Example.release.xcconfig */,
+			);
+			name = "Pods-ClearTextSwitch_Example";
+			path = "Target Support Files/Pods-ClearTextSwitch_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				661276CC4AC31FB9DAB4488DD7B05393 /* Development Pods */,
+				8D0D6CB064A91576911FCC680FC2C1D9 /* Frameworks */,
+				A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */,
+				85EF6BF073CEF79AE60CCB13F8B51BB3 /* Products */,
+				BD2689CEB8C83D237A2FD88597A20913 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85EF6BF073CEF79AE60CCB13F8B51BB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1FC4BF61587611F04B7DCD3BD1CCA48 /* ClearTextSwitch.bundle */,
+				CE5056850A979397D23BCDB559C425F8 /* ClearTextSwitch.framework */,
+				446280EE85E7E8403D6544E6F08EA067 /* Pods_ClearTextSwitch_Example.framework */,
+				45DB5A423398773E85CF9ACA2602723E /* Pods_ClearTextSwitch_Tests.framework */,
+				CD8449D30367ABC63275CA9BFC14C269 /* PureLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D0D6CB064A91576911FCC680FC2C1D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0D48D26F82F7721BC1C5405C803342 /* PureLayout.framework */,
+				F8FE80DD95FD6012100708963DD646B0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C6F93A5AE4A9293598494393460DF93 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */,
+				3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */,
+				256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */,
+				D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */,
+				2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */,
+				62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */,
+				261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */,
+				AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */,
+				5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */,
+				2F7CB2F8AA04108B4168449AFCA94214 /* Support Files */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		9F918E594BB8799410BC081A6A33E995 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E99162F9F89616E7AC544BA6E593D18 /* ClearTextSwitch.modulemap */,
+				A28F500AA29B9E9C3507F44F862948F8 /* ClearTextSwitch.xcconfig */,
+				1A920A3E244DC12D713B9855B0F43C69 /* ClearTextSwitch-dummy.m */,
+				53869946B4016D1E850375A0474BC5E3 /* ClearTextSwitch-prefix.pch */,
+				C050E85F8FF2A2A6B6BE32F441166071 /* ClearTextSwitch-umbrella.h */,
+				2AE8C4286DAB5804CC321A425FF40B17 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ClearTextSwitch";
+			sourceTree = "<group>";
+		};
+		A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C6F93A5AE4A9293598494393460DF93 /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA9812E50AF83AF7123976BDFA274E58 /* Pods-ClearTextSwitch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B30F9E7A76F6593BBA3BBDB9F5EFA0F4 /* Info.plist */,
+				5852F0BB62C7FFB53D42A160DA86A69A /* Pods-ClearTextSwitch_Tests.modulemap */,
+				9FEF7F4B62379E2153CA78772A6599BF /* Pods-ClearTextSwitch_Tests-acknowledgements.markdown */,
+				8783E71AF6237F306E823B1382F0EE63 /* Pods-ClearTextSwitch_Tests-acknowledgements.plist */,
+				871195D988ED79C5B025CEC330AB281E /* Pods-ClearTextSwitch_Tests-dummy.m */,
+				6ECC1E6BC1CBB960EEEB5DBB1F28C59A /* Pods-ClearTextSwitch_Tests-frameworks.sh */,
+				4D2EACAF5BA6B76481F6D7EE4CC7C26D /* Pods-ClearTextSwitch_Tests-resources.sh */,
+				22FD725D10C1A91C3229F53A9E081920 /* Pods-ClearTextSwitch_Tests-umbrella.h */,
+				9914E46CEC21D1010C39F2883B3DEFBB /* Pods-ClearTextSwitch_Tests.debug.xcconfig */,
+				215ED93CA017097BB0D392B4F0440564 /* Pods-ClearTextSwitch_Tests.release.xcconfig */,
+			);
+			name = "Pods-ClearTextSwitch_Tests";
+			path = "Target Support Files/Pods-ClearTextSwitch_Tests";
+			sourceTree = "<group>";
+		};
+		BD2689CEB8C83D237A2FD88597A20913 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C73DC11ACEFE5A0359AC1CC43E49B12 /* Pods-ClearTextSwitch_Example */,
+				AA9812E50AF83AF7123976BDFA274E58 /* Pods-ClearTextSwitch_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8FE80DD95FD6012100708963DD646B0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E8698826DBA82B5FF84BA0FACB68CA86 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35759B46D831394AC02AF4E936030A86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E428CF32FF6B98130C31F634B263E1 /* ALView+PureLayout.h in Headers */,
+				267C2220BAB1B89CB4DD84FE5E01CE87 /* NSArray+PureLayout.h in Headers */,
+				DC2B941C0BF92FA6EBEC6DEC6D57AB78 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				FB1D2E9FB13774CD4DA320329ECEBBDC /* PureLayout+Internal.h in Headers */,
+				9EB4389BB9DE1C31F177FB2E716146A7 /* PureLayout-umbrella.h in Headers */,
+				0F40F00A0451C95903E7BA92FB21454E /* PureLayout.h in Headers */,
+				21227CA9800D1705E38E89FBFB8314FA /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AED5BF64B1B29667123BDDF51E4770A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FC3A89DC2EB1105B372091E66FB4D0 /* Pods-ClearTextSwitch_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0748C9394FDC0F0652AAE1CE4ACB80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAEC746D53F33D5D36A546F8F03BEB2 /* Pods-ClearTextSwitch_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D2FF3C196AEB02B5FCB3202ECC3ADF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB45218A9ED7494324F56E97B1E9DE7 /* ClearTextSwitch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F9A1282DC404CFAEA3616D41FFFCF75 /* ClearTextSwitch-ClearTextSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD407121C0AA67C2FD7D6BE85AECADA /* Build configuration list for PBXNativeTarget "ClearTextSwitch-ClearTextSwitch" */;
+			buildPhases = (
+				8A012BDF80A89CD9C473B7730E957D5C /* Sources */,
+				4C6B5267B732E3EB670B7744125CD21C /* Frameworks */,
+				27F7D9B69F3903ED0853F0E909D3A44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ClearTextSwitch-ClearTextSwitch";
+			productName = "ClearTextSwitch-ClearTextSwitch";
+			productReference = C1FC4BF61587611F04B7DCD3BD1CCA48 /* ClearTextSwitch.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		585C2A679D4A96E8C8E47077D7A672DF /* Pods-ClearTextSwitch_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86688DA17A48F94556CF226F0FF1C3EE /* Build configuration list for PBXNativeTarget "Pods-ClearTextSwitch_Tests" */;
+			buildPhases = (
+				6E5926607858640950EDDD3D957665CE /* Sources */,
+				C3730DAFCEBAE55552E147FA4E021AE4 /* Frameworks */,
+				3AED5BF64B1B29667123BDDF51E4770A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				175DA1C766D0D72816B517A2EE504C0C /* PBXTargetDependency */,
+				69E66916B3481EC1E83AAE911E16733E /* PBXTargetDependency */,
+			);
+			name = "Pods-ClearTextSwitch_Tests";
+			productName = "Pods-ClearTextSwitch_Tests";
+			productReference = 45DB5A423398773E85CF9ACA2602723E /* Pods_ClearTextSwitch_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B85BEF7062D62E3936D0184EF5F9F99 /* Pods-ClearTextSwitch_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDF5158005252F058552F0A5303F3C2 /* Build configuration list for PBXNativeTarget "Pods-ClearTextSwitch_Example" */;
+			buildPhases = (
+				599941EF5901ABDB74020A8C5B0E7B5E /* Sources */,
+				F2284683CADBB530B1283BDB2E1369F4 /* Frameworks */,
+				7A0748C9394FDC0F0652AAE1CE4ACB80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EB08FED6E8AA16EA0095C4417BE0476 /* PBXTargetDependency */,
+				1A449C96745692D0BB9D090998E4191E /* PBXTargetDependency */,
+			);
+			name = "Pods-ClearTextSwitch_Example";
+			productName = "Pods-ClearTextSwitch_Example";
+			productReference = 446280EE85E7E8403D6544E6F08EA067 /* Pods_ClearTextSwitch_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DE87237A9B1E41F10C748CCD9466ECC /* ClearTextSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D4D5698D63EED9E89FF25F6C851B74 /* Build configuration list for PBXNativeTarget "ClearTextSwitch" */;
+			buildPhases = (
+				F23CCC4B3E88330752A9E71F4D2CCA53 /* Sources */,
+				BE15057F815446812890D87F5168A11C /* Frameworks */,
+				DFA9677A8C289EDCEE632BCE11534A8D /* Resources */,
+				E3D2FF3C196AEB02B5FCB3202ECC3ADF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				191C04FAF69BC3E51E0565C0714AF311 /* PBXTargetDependency */,
+				F56B23B3A1006008256EB2C52F73CF73 /* PBXTargetDependency */,
+			);
+			name = ClearTextSwitch;
+			productName = ClearTextSwitch;
+			productReference = CE5056850A979397D23BCDB559C425F8 /* ClearTextSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A230B4029792D5316D906B8926870E5D /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEC8210A209C02C548C7CDB1C60CE5D /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				7136EB33C82B3EF197B5D19D568CE044 /* Sources */,
+				F66EA3DE4DE30BB8C9D6C86779C58097 /* Frameworks */,
+				35759B46D831394AC02AF4E936030A86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = CD8449D30367ABC63275CA9BFC14C269 /* PureLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 85EF6BF073CEF79AE60CCB13F8B51BB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DE87237A9B1E41F10C748CCD9466ECC /* ClearTextSwitch */,
+				1F9A1282DC404CFAEA3616D41FFFCF75 /* ClearTextSwitch-ClearTextSwitch */,
+				7B85BEF7062D62E3936D0184EF5F9F99 /* Pods-ClearTextSwitch_Example */,
+				585C2A679D4A96E8C8E47077D7A672DF /* Pods-ClearTextSwitch_Tests */,
+				A230B4029792D5316D906B8926870E5D /* PureLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27F7D9B69F3903ED0853F0E909D3A44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA9677A8C289EDCEE632BCE11534A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE0FC48C1C8E5EDF7472EFB67427FEF /* ClearTextSwitch.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		599941EF5901ABDB74020A8C5B0E7B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780B7A4E7B815E074EE12A9E055F83F5 /* Pods-ClearTextSwitch_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5926607858640950EDDD3D957665CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8BF13F2414C4966C0503DA82C88F61 /* Pods-ClearTextSwitch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7136EB33C82B3EF197B5D19D568CE044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D45A9F3506A097A19E8B07C135318E7 /* ALView+PureLayout.m in Sources */,
+				4396A21D67F2108BF525934411BB2210 /* NSArray+PureLayout.m in Sources */,
+				0385D9A6BDCE12A2EFA061F6D9D7A906 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				BC4B9C6945867BF3D3DD24BAD742FE60 /* PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A012BDF80A89CD9C473B7730E957D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23CCC4B3E88330752A9E71F4D2CCA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9008E17B5F1E933A137180C2E1C2EA58 /* ClearTextSwitch-dummy.m in Sources */,
+				9C26A67EAC91B9C3C09E64AB4B4B0DF5 /* ClearTextSwitch.swift in Sources */,
+				60FD048E3C2D2DE5883A26FE16FEC947 /* ClearTextSwitchDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		175DA1C766D0D72816B517A2EE504C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ClearTextSwitch;
+			target = 8DE87237A9B1E41F10C748CCD9466ECC /* ClearTextSwitch */;
+			targetProxy = 14D46A6249DD3EB88F9E8F8671BFA4DE /* PBXContainerItemProxy */;
+		};
+		191C04FAF69BC3E51E0565C0714AF311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ClearTextSwitch-ClearTextSwitch";
+			target = 1F9A1282DC404CFAEA3616D41FFFCF75 /* ClearTextSwitch-ClearTextSwitch */;
+			targetProxy = F4C1ACF28CF2992A83F703B3D850CAB8 /* PBXContainerItemProxy */;
+		};
+		1A449C96745692D0BB9D090998E4191E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = A230B4029792D5316D906B8926870E5D /* PureLayout */;
+			targetProxy = 32F196B5664AC3D5CE867F1D10675967 /* PBXContainerItemProxy */;
+		};
+		2EB08FED6E8AA16EA0095C4417BE0476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ClearTextSwitch;
+			target = 8DE87237A9B1E41F10C748CCD9466ECC /* ClearTextSwitch */;
+			targetProxy = 7975E2C9CA26C6AD7447BA61403E51BE /* PBXContainerItemProxy */;
+		};
+		69E66916B3481EC1E83AAE911E16733E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = A230B4029792D5316D906B8926870E5D /* PureLayout */;
+			targetProxy = 33CDB2FA7A4A263B59425BACEFA3711D /* PBXContainerItemProxy */;
+		};
+		F56B23B3A1006008256EB2C52F73CF73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = A230B4029792D5316D906B8926870E5D /* PureLayout */;
+			targetProxy = D40AA1061BFE7CDE7E657D99E7FC6086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DD8D857B717CECDC00CF33C064A7913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28F500AA29B9E9C3507F44F862948F8 /* ClearTextSwitch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ClearTextSwitch/ClearTextSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ClearTextSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ClearTextSwitch/ClearTextSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ClearTextSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41A585E245E255D6F87957AFB4C2D7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFD19B160EA8F132C5A345FB2AE4F8D /* Pods-ClearTextSwitch_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClearTextSwitch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClearTextSwitch_Example/Pods-ClearTextSwitch_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ClearTextSwitch_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		434549EB456D49701DDE730A91916690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28F500AA29B9E9C3507F44F862948F8 /* ClearTextSwitch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ClearTextSwitch/ClearTextSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ClearTextSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ClearTextSwitch/ClearTextSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ClearTextSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49604D3DCA7D747D7D2D67AD7EB0E677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A2DA6EC0F788A40D90977FB6241EDA /* Pods-ClearTextSwitch_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClearTextSwitch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClearTextSwitch_Example/Pods-ClearTextSwitch_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ClearTextSwitch_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FF6949CEE6EAAF5D32F5000CAE0AD81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215ED93CA017097BB0D392B4F0440564 /* Pods-ClearTextSwitch_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClearTextSwitch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClearTextSwitch_Tests/Pods-ClearTextSwitch_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ClearTextSwitch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9EC07E96AB67D391F56627558A0CB286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9914E46CEC21D1010C39F2883B3DEFBB /* Pods-ClearTextSwitch_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClearTextSwitch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClearTextSwitch_Tests/Pods-ClearTextSwitch_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ClearTextSwitch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A051C2DD257A764640E04C3992B399AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1EB4052B6CE1311F248419F626C3EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28F500AA29B9E9C3507F44F862948F8 /* ClearTextSwitch.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ClearTextSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D2EF2CCE5E54E422CCC928B48401ABBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDF122F11C106893B3A203BF8D63A172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28F500AA29B9E9C3507F44F862948F8 /* ClearTextSwitch.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ClearTextSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D4D5698D63EED9E89FF25F6C851B74 /* Build configuration list for PBXNativeTarget "ClearTextSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434549EB456D49701DDE730A91916690 /* Debug */,
+				2DD8D857B717CECDC00CF33C064A7913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD407121C0AA67C2FD7D6BE85AECADA /* Build configuration list for PBXNativeTarget "ClearTextSwitch-ClearTextSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF122F11C106893B3A203BF8D63A172 /* Debug */,
+				C1EB4052B6CE1311F248419F626C3EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEC8210A209C02C548C7CDB1C60CE5D /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EF2CCE5E54E422CCC928B48401ABBE /* Debug */,
+				A051C2DD257A764640E04C3992B399AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDF5158005252F058552F0A5303F3C2 /* Build configuration list for PBXNativeTarget "Pods-ClearTextSwitch_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A585E245E255D6F87957AFB4C2D7DA /* Debug */,
+				49604D3DCA7D747D7D2D67AD7EB0E677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86688DA17A48F94556CF226F0FF1C3EE /* Build configuration list for PBXNativeTarget "Pods-ClearTextSwitch_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC07E96AB67D391F56627558A0CB286 /* Debug */,
+				4FF6949CEE6EAAF5D32F5000CAE0AD81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

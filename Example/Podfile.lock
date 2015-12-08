@@ -1,0 +1,17 @@
+PODS:
+  - ClearTextSwitch (0.0.1):
+    - PureLayout (~> 3.0)
+  - PureLayout (3.0.1)
+
+DEPENDENCIES:
+  - ClearTextSwitch (from `../`)
+
+EXTERNAL SOURCES:
+  ClearTextSwitch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ClearTextSwitch: e219a5a8af1eddb85df613f4848329ce2f26d272
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+
+COCOAPODS: 0.39.0

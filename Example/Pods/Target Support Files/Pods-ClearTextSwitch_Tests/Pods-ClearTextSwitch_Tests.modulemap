@@ -1,0 +1,6 @@
+framework module Pods_ClearTextSwitch_Tests {
+  umbrella header "Pods-ClearTextSwitch_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
