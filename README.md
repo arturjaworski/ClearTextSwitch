@@ -5,12 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/ClearTextSwitch.svg?style=flat)](http://cocoapods.org/pods/ClearTextSwitch)
 [![Platform](https://img.shields.io/cocoapods/p/ClearTextSwitch.svg?style=flat)](http://cocoapods.org/pods/ClearTextSwitch)
 
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
 ## Installation
 
 ClearTextSwitch is available through [CocoaPods](http://cocoapods.org). To install
@@ -20,9 +14,23 @@ it, simply add the following line to your Podfile:
 pod "ClearTextSwitch"
 ```
 
-## Author
+## Quick Start
 
-Artur Jaworski, kontakt@arturjaworski.pl
+```swift
+import ClearTextSwitch
+class ViewController: UIViewController, ClearTextSwitchDelegate {
+    @IBOutlet weak var clearTextSwitch: ClearTextSwitch!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.clearTextSwitch.delegate = self
+    }
+    
+    func clearTextSwitchDidChange(clearTextSwitch: ClearTextSwitch) {
+        print("clearTextSwitchDidChange to \(clearTextSwitch.selected)")
+    }
+}
+```
 
 ## License
 
