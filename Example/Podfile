@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ClearTextSwitch_Example', :exclusive => true do
+  pod "ClearTextSwitch", :path => "../"
+end
+
+target 'ClearTextSwitch_Tests', :exclusive => true do
+  pod "ClearTextSwitch", :path => "../"
+
+  
+end
