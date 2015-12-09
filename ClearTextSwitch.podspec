@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                       UISwitch-like control based on text
+                       Switch control which animating text from left to right. Works with autolayout.
                        DESC
 
   s.homepage         = "https://github.com/arturjaworski/ClearTextSwitch"
