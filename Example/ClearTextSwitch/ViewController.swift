@@ -13,6 +13,14 @@ class ViewController: UIViewController, ClearTextSwitchDelegate {
 
     @IBOutlet weak var firstClearTextSwitch: ClearTextSwitch!
     @IBOutlet weak var secondClearTextSwitch: ClearTextSwitch!
+    private lazy var thirdClearTextSwitch: ClearTextSwitch = {
+        var obj = ClearTextSwitch(frame: CGRectMake(20,400,200,50))
+        obj.delegate = self
+        obj.normalBackgroundColor = UIColor.greenColor()
+        obj.selectedBackgroundColor = UIColor.grayColor()
+        obj.title = "Third"
+        return obj
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +32,8 @@ class ViewController: UIViewController, ClearTextSwitchDelegate {
         self.secondClearTextSwitch.selectedBackgroundColor = UIColor.yellowColor()
         self.secondClearTextSwitch.title = "2."
         self.secondClearTextSwitch.delegate = self
+        
+        self.view.addSubview(self.thirdClearTextSwitch)
     }
     
     func clearTextSwitchDidChange(clearTextSwitch: ClearTextSwitch) {

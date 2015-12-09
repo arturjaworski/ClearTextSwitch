@@ -20,11 +20,20 @@ pod "ClearTextSwitch"
 ```swift
 import ClearTextSwitch
 class ViewController: UIViewController, ClearTextSwitchDelegate {
-    @IBOutlet weak var clearTextSwitch: ClearTextSwitch!
+    @IBOutlet weak var firstClearTextSwitch: ClearTextSwitch!
+    private lazy var secondClearTextSwitch = {
+        var obj = ClearTextSwitch(frame: CGRectMake(50,50,200,50))
+        obj.delegate = self
+        obj.normalBackgroundColor = UIColor.greenColor()
+        obj.selectedBackgroundColor = UIColor.grayColor()
+        obj.title = "2."
+        return obj
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.clearTextSwitch.delegate = self
+        self.firstClearTextSwitch.delegate = self
+        self.view.addSubview(self.secondClearTextSwitch)
     }
     
     func clearTextSwitchDidChange(clearTextSwitch: ClearTextSwitch) {

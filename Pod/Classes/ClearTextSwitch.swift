@@ -51,7 +51,7 @@ public class ClearTextSwitch: UIControl {
     }
     private let margin: CGFloat = 10.0
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         self.onInit()
     }
