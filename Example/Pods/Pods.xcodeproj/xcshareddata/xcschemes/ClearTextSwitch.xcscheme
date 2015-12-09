@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8F9D786CAAFEF33D4C58E38C'
+               BlueprintIdentifier = 'FD1F8B6C71D1E2E7D9E3F56B'
                BlueprintName = 'ClearTextSwitch'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ClearTextSwitch.framework'>

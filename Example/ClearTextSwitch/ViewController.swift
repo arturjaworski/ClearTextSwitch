@@ -14,7 +14,7 @@ class ViewController: UIViewController, ClearTextSwitchDelegate {
     @IBOutlet weak var firstClearTextSwitch: ClearTextSwitch!
     @IBOutlet weak var secondClearTextSwitch: ClearTextSwitch!
     private lazy var thirdClearTextSwitch: ClearTextSwitch = {
-        var obj = ClearTextSwitch(frame: CGRectMake(20,400,200,50))
+        let obj = ClearTextSwitch(frame: CGRectMake(20,400,200,50))
         obj.delegate = self
         obj.normalBackgroundColor = UIColor.greenColor()
         obj.selectedBackgroundColor = UIColor.grayColor()

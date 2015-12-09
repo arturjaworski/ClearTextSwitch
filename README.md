@@ -22,7 +22,7 @@ import ClearTextSwitch
 class ViewController: UIViewController, ClearTextSwitchDelegate {
     @IBOutlet weak var firstClearTextSwitch: ClearTextSwitch!
     private lazy var secondClearTextSwitch = {
-        var obj = ClearTextSwitch(frame: CGRectMake(50,50,200,50))
+        let obj = ClearTextSwitch(frame: CGRectMake(50,50,200,50))
         obj.delegate = self
         obj.normalBackgroundColor = UIColor.greenColor()
         obj.selectedBackgroundColor = UIColor.grayColor()
