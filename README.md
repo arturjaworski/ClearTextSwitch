@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/ClearTextSwitch.svg?style=flat)](http://cocoapods.org/pods/ClearTextSwitch)
 [![Platform](https://img.shields.io/cocoapods/p/ClearTextSwitch.svg?style=flat)](http://cocoapods.org/pods/ClearTextSwitch)
 
+![](/Video/demo.gif) 
+
 ## Installation
 
 ClearTextSwitch is available through [CocoaPods](http://cocoapods.org). To install
