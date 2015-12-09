@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ClearTextSwitch"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "UISwitch-like control based on text"
 
 # This description is used to generate tags and improve search results.
